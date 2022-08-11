@@ -1,0 +1,116 @@
+/*Skills*/
+.icon-skill {
+    display: block;
+    margin: 0 auto;
+    width: 8rem;
+    height: 8rem;
+}
+.skill-text {
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding: 1rem 0;
+}
+.icon-text {
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: #fff;
+    margin: 0 auto;
+}
+.features > li {
+    transition: 1s all;
+}
+.features > li:hover {
+    transform: scale(1.2);
+}
+
+/*listado formacion academica*/
+.contendorFormacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+.contendorFormacion-cursos {
+    width: 30%;
+    background-color: #FFF;
+    text-align: center;
+    margin: 1%;
+    transition: .3s;
+
+}
+.contendorFormacion-cursos:hover {
+    box-shadow: 2px 2px 2px #ccc;
+    position: relative;
+}
+
+.contendorFormacion-cursos img {
+    width: 150px;
+    
+}
+
+/*Experiencia profesional*/
+.proyectos__tarjetas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarjetas {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f8f9fa;
+
+    width: 100%;
+    max-width: 400px;
+
+    margin-bottom: 2rem;
+
+    border-radius: 5px;
+    box-shadow: 0 2px 10px 2px #00000010;
+}
+
+.tarjetas__titulo {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+
+    padding: .75rem 0;
+
+    margin-bottom: .5rem;
+
+    border-bottom: 1px solid var(--background-azul-claro);
+}
+
+.tarjetas__imagen {
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+}
+.tarjetas__imagen img{
+    
+    width: 100%;
+}
+
+.tarjetas__boton {
+    font-size: 1.2rem;
+    font-weight: 700;
+
+    width: 100%;
+
+    align-self: center;
+
+    padding: .75rem 2rem;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .contendorFormacion-cursos {
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+}

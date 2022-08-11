@@ -1,0 +1,13 @@
+#contact{
+    margin-top: 3rem;
+}
+
+.fields > div {
+    padding-bottom: 2rem;
+}
+.actions > li {
+    padding-top: 2rem;
+}
+.field > input{
+    text-align: center;
+}
